@@ -1,4 +1,4 @@
-import { Redirect } from "expo-router";
+import Welcome from "./welcome";
 export default function Index() {
-    return <Redirect href="/welcome" />;
+    return <Welcome />;
 }
